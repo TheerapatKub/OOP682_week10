@@ -1,0 +1,6 @@
+level,message
+INFO,Application started from CSV
+DEBUG,Loaded configuration file
+WARNING,Memory usage is high
+ERROR,Failed to open database connection
+
