@@ -1,0 +1,17 @@
+[project]
+name = "fastapi-oop-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.128.1",
+    "sqlalchemy>=2.0.46",
+    "uvicorn>=0.39.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=8.4.2",
+]
